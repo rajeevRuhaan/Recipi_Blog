@@ -1,0 +1,19 @@
+.main-nav {
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgba(238, 174, 202, 1);
+}
+.main-nav .container {
+  position: relative;
+  margin-left: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

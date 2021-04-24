@@ -1,0 +1,32 @@
+#hero-banner {
+  background: url(../assets/food-header-unsplash.jpg) no-repeat fixed center
+    center/cover;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#hero-banner h2 {
+  text-shadow: 5px 5px 5px rgb(132, 132, 243);
+  font-size: 3rem;
+  color: rgb(16, 33, 185);
+  text-align: center;
+}
+.recipelist {
+  display: flex;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.recipecard {
+  background: #f4f4f4;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #333;
+  padding: 1rem;
+  list-style: none;
+}

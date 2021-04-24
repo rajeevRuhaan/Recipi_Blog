@@ -1,0 +1,44 @@
+.form {
+  background: wheat;
+  color: white;
+  background: radial-gradient(
+    circle,
+    rgb(149, 143, 236) 10%,
+    rgba(110, 187, 233, 1) 80%
+  );
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  justify-items: center;
+}
+form {
+  padding: 2rem;
+}
+label {
+  width: 100%;
+  display: block;
+}
+
+form div {
+  margin: 1rem;
+}
+input,
+textarea {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background: #f4f4f4;
+  border: 1px solid rgb(102, 102, 102);
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  float: inline-start;
+}
+
+input[type="submit"] {
+  background-color: darkolivegreen;
+  color: white;
+  text-transform: uppercase;
+  margin-left: auto;
+}

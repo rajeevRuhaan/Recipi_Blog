@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
-import Header from "./homeFeature/Header";
-import Main from "./homeFeature/Main";
+import Header from "./Components/Header";
+import Main from "./Components/Main";
 
-import Footer from "./homeFeature/Footer";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
