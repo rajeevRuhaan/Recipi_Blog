@@ -6,14 +6,19 @@ const RecipeCard = ({ getRecipes }) => {
     recipeToReturn = getRecipes.map((getrecipe) => {
       return (
         <div key={getrecipe.id} className="recipecard">
+          <img src={getrecipe.image} />
           <ul>
-            <li>{getrecipe.image}</li>
             <li>{getrecipe.name}</li>
             <li> {getrecipe.cookTime}</li>
-            {/* <li>{getrecipe.description}</li> */}
+            <li>{getrecipe.description}</li>
           </ul>
 
-          {/* <li> {getrecipe.recipeIngredient}</li> */}
+          <ul>
+            {" "}
+            {getrecipe.recipeIngredient.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
         </div>
       );
     });

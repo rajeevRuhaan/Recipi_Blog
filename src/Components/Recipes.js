@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import RecipeCard from "./RecipeCard";
+import pic from "../../public/assets";
 
 import "./Recipes.css";
 
@@ -36,6 +37,7 @@ class Recipes extends Component {
       <div>
         <div>
           <section id="hero-banner">
+            <img src={pic} />
             <h2>Welcome to my recipe page</h2>
           </section>
         </div>

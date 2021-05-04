@@ -3,76 +3,64 @@
      "recipe": [{
         "id": 1,
         "name": "Dal Makhni",
-        "image": "./assets/dalMakhni.png",
+        "image": "/assets/dalMakhni.png",
         "cookTime": "30 min",
         "description": "Dal Makhani is one of the most popular lentil recipes from the North Indian Punjabi cuisine made with Whole Black Lentils",
-        "keyWords": "Dal, dalmakhni",
-        
-        
         "recipeIngredient": [
-            "140 grams (whole black gram)",
-            "40 grams (kidney beans)",
-            "750 ml water for pressure cooking",
-            "50 grams onion",
-            "1 teaspoon chopped green chilies",
-            "2 teaspoons Ginger-Garlic Paste",
-            "200 grams tomatoes – pureed",
-            "½ teaspoon cumin seeds",
-            "2 to 3 cloves",
-            "1 black cardamom",
-            "1 inch cinnamon",
-            "1 small to medium tej patta (Indian bay leaf)",
-            "2 tablespoons heavy cream",
-            "¼ teaspoon crushed kasuri methi (dry fenugreek leaves)",
-            "3 tablespoon butter",
-            "salt as required",
-            "1 to 2 tablespoons chopped coriander leaves"
+                            "140 grams (whole black gram)",
+                            "40 grams (kidney beans)",
+                            "750 ml water for pressure cooking",
+                            "50 grams onion",
+                            "1 teaspoon chopped green chilies",
+                            "2 teaspoons Ginger-Garlic Paste",
+                            "200 grams tomatoes – pureed",
+                            "½ teaspoon cumin seeds",
+                            "2 to 3 cloves",
+                            "1 black cardamom",
+                            "1 inch cinnamon",
+                            "1 small to medium tej patta (Indian bay leaf)",
+                            "2 tablespoons heavy cream",
+                            "¼ teaspoon crushed kasuri methi (dry fenugreek leaves)",
+                            "3 tablespoon butter",
+                            "salt as required",
+                            "1 to 2 tablespoons chopped coriander leaves"
         ],
         "recipeInstruction": [
-                {
-                "name": "Preparation",
-                "text": "Soak both the whole urad dal and rajma overnight in enough water for 8 to 9 hours or overnight. Later drain them well. Pressure cook for 18 to 20 whistles on a high flame, till both the urad dal and rajma have cooked thoroughly and softened."
-                },
-                {
-                "name": "Making Dal Makhani",
-                "text":[
-                    "In a pan, now heat butter. You can use salted butter or unsalted butter.",
-                    "Add the whole spices – cumin seeds, cloves, green cardamoms, black cardamom, 1 inch cinnamon, 1 small to medium tej patta.",
+                        "Soak both the whole urad dal and rajma overnight in enough water for 8 to 9 hours or overnight. Later drain them well. Pressure cook for 18 to 20 whistles on a high flame, till both the urad dal and rajma have cooked thoroughly and softened.",
+                    
+                        "In a pan, now heat butter. You can use salted butter or unsalted butter.",
+                        "Add the whole spices – cumin seeds, cloves, green cardamoms, black cardamom, 1 inch cinnamon, 1 small to medium tej patta.",
 
-                    "Fry for some seconds till the spices sputter and become aromatic.",
-                    "Add finely chopped onions.",
-                    "Stir and sauté the onions on a low or medium-low heat often till they become light golden.",
-                    "Add the ginger garlic paste. Stir again and sauté for some seconds till the raw aroma of ginger-garlic goes away.",
-                    "Add the chopped green chilies and sauté for a minute.",
-                    "Add the prepared tomato puree and mix well.",
-                    "Add red chili powder and 2 to 3 pinches of grated nutmeg or nutmeg powder.",
-                    "Stir very well and sauté this mixture on a low to medium flame, till you see fat releasing from the sides.",
-                    "Then add the cooked urad dal and rajma beans along with the stock. Also add 1 cup water or as required."] 
-                 }
-        ]
+                        "Fry for some seconds till the spices sputter and become aromatic.",
+                        "Add finely chopped onions.",
+                        "Stir and sauté the onions on a low or medium-low heat often till they become light golden.",
+                        "Add the ginger garlic paste. Stir again and sauté for some seconds till the raw aroma of ginger-garlic goes away.",
+                        "Add the chopped green chilies and sauté for a minute.",
+                        "Add the prepared tomato puree and mix well.",
+                        "Add red chili powder and 2 to 3 pinches of grated nutmeg or nutmeg powder.",
+                        "Stir very well and sauté this mixture on a low to medium flame, till you see fat releasing from the sides.",
+                        "Then add the cooked urad dal and rajma beans along with the stock. Also add 1 cup water or as required."
+                    ]
     },
    
             {
                 "id": 2,
             "name": "Rasgulaa",
-            "image": ["./assets/rasgulla.png"],
+            "image": "/assets/rasgulla.png",
             "recipeCategory": "Sweet",
             "recipeCuisine": "Indian",
             "cookTime": "120 min",
             "description": "Rasgulla is a milk based sweet made by curdling milk, draining the whey and kneading the milk solids to make balls. These balls are cooked in hot sugar syrup until light and spongy",
-            "keyWords": "rasgulla, sweet",
+            
             "recipeIngredient": [
-                "2 Liter Milk",
-                "Sugar",
-                "2 tbsp Lemon juice",
-                "2 tbsp Rosewater",
-                "3 pod  cardamom"
+                        "2 Liter Milk",
+                        "Sugar",
+                        "2 tbsp Lemon juice",
+                        "2 tbsp Rosewater",
+                        "3 pod  cardamom"
             ],
             "recipeInstruction": [
-                {
-               
-                "name": "Preparation",
-                "text": [
+                
                     "firstly, in a large vessel get 2 litre milk of milk to a boil stirring occasionally.",
 
                     "once the milk comes to a boil, pour 2 tbsp lemon juice and stir well. you can alternatively use curd or vinegar.stir until the milk curdles keeping the flame on low to medium.",
@@ -110,6 +98,8 @@
                     "once cooled completely, take into a serving bowl and pour in leftover sugar water.",
 
                     "finally, enjoy rasgulla chilled or as it is."]
-                }]
-            }]
- }
+               
+            }
+ 
+ ]
+}
